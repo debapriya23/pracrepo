@@ -14,6 +14,9 @@ namespace WebApplication24.Data
         {
         }
 
+
+        public DbSet<person> person { get; set; }
+
     }
        
 }
